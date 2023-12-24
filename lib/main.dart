@@ -6,19 +6,22 @@ import 'package:self_management/screens/StressControlScreen.dart';
 import 'package:self_management/screens/WelcomeScreen.dart';
 import 'package:self_management/screens/WorkScreen.dart';
 
+import 'ScreenController.dart';
+
 void main() {
   runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
+
   static const String sAppName = "自我狀態管理";
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       title: sAppName,
-      home: StressScontrolScreen(),
+      home: ScreenController(type: ScreenType.WELCOME,),
       debugShowCheckedModeBanner: false,
     );
   }
