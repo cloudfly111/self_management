@@ -13,8 +13,6 @@ class LoginScreen extends StatefulWidget {
 class _LoginScreenState extends State<StatefulWidget> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: wAppBar(sTitle: StaticInfor.sLoginScreenName),
-    );
+    return Container();
   }
 }

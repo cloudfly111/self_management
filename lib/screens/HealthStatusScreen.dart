@@ -13,8 +13,6 @@ class HealthStatusScreen extends StatefulWidget {
 class _HealthStatusScreenState extends State<StatefulWidget> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: wAppBar(sTitle: StaticInfor.sHealStatusName),
-    );
+    return Container();
   }
 }

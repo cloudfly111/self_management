@@ -13,8 +13,6 @@ class WorkScreen extends StatefulWidget {
 class _WorkScreenState extends State<StatefulWidget> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: wAppBar(sTitle: StaticInfor.sWorkName),
-    );
+    return Container();
   }
 }

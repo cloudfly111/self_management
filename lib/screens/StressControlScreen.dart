@@ -13,8 +13,6 @@ class StressScontrolScreen extends StatefulWidget {
 class _StressScontrolScreenState extends State<StatefulWidget> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: wAppBar(sTitle: StaticInfor.sStressControlName),
-    );
+    return Container();
   }
 }
